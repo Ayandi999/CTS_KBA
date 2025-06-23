@@ -1,7 +1,8 @@
 package Design_Patterns.FactoryMethodattern;
 
-public class wordDocument implements document{
-     public void open(){
-          System.out.println("Word document is opened.");
-     }
+public class WordDocument implements Document {
+    @Override
+    public void open() {
+        System.out.println("Opening Word Document");
+    }
 }

@@ -1,5 +1,5 @@
 package Design_Patterns.FactoryMethodattern;
 
-public class DocumentFactory {
-     
+public abstract class DocumentFactory {
+    public abstract Document createDocument();
 }

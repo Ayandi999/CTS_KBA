@@ -1,8 +1,8 @@
 package Design_Patterns.FactoryMethodattern;
 
-//ExcellDocument class implimented.
-public class ExcelDocument implements document{
-     public void open(){
-          System.out.println("ExcellDocument has been opened");
-     }
+public class ExcelDocument implements Document {
+    @Override
+    public void open() {
+        System.out.println("Opening Excel Document");
+    }
 }

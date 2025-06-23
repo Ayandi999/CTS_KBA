@@ -1,5 +1,5 @@
 package Design_Patterns.FactoryMethodattern;
 
-public interface document {
-     void open();
+public interface Document {
+    void open();
 }
