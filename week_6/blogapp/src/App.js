@@ -1,20 +1,37 @@
-import React from 'react';
-import Student from './components/Student'; // Import the Student component
-import './App.css'; // Optional: for styling
+/*import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Student Results</h1>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-      <main>
-        {/* Use the Student component and pass the required props.
-          You can reuse the component for multiple students.
-        */}
-        <Student name="Ayandip" sub1={95} sub2={88} sub3={92} />
-        <Student name="Riya" sub1={85} sub2={91} sub3={89} />
-      </main>
+    </div>
+  );
+}
+
+export default App;
+*/
+import React from 'react';
+import Posts from './Posts.js'; // adjust path if Posts.js is in another folder
+
+function App() {
+  return (
+    <div className="App">
+      <h1>My Blog</h1>
+      <Posts />
     </div>
   );
 }
